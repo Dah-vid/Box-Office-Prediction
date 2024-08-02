@@ -12,8 +12,8 @@ from nltk.stem import PorterStemmer
 import re
 
 # Download necessary NLTK data
-nltk.download('punkt')
-nltk.download('stopwords')
+nltk.download('punkt', quiet=True)
+nltk.download('stopwords', quiet=True)
 
 # Load spaCy model
 try:
@@ -25,9 +25,8 @@ except OSError:
 
 print("spaCy model loaded successfully")
 
-# Rest of your code...
 # Set up file paths
-script_folder = r"C:\Users\david\Documents\MSC Coursework\Dissertation\Code\scripts"
+script_folder = r"C:\Users\david\Documents\MSC Coursework\Dissertation\Code\matched_scripts"
 csv_path = r"C:\Users\david\Documents\MSC Coursework\Dissertation\Code\matched_scripts.csv"
 
 
@@ -49,12 +48,16 @@ def stem_words(tokens):
 
 
 def preprocess_script(file_path):
-    with open(file_path, 'r', encoding='utf-8') as file:
-        content = file.read()
-    cleaned_text = clean_text(content)
-    tokens = tokenize_and_remove_stopwords(cleaned_text)
-    stemmed_tokens = stem_words(tokens)
-    return ' '.join(stemmed_tokens)
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            content = file.read()
+        cleaned_text = clean_text(content)
+        tokens = tokenize_and_remove_stopwords(cleaned_text)
+        stemmed_tokens = stem_words(tokens)
+        return ' '.join(stemmed_tokens)
+    except Exception as e:
+        print(f"Error processing {file_path}: {str(e)}")
+        return ""
 
 
 # Feature extraction functions
