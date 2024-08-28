@@ -1,0 +1,92 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMOreg -C 1.0 -N 0 -I "weka.classifiers.functions.supportVector.RegSMOImproved -T 0.001 -V -P 1.0E-12 -L 0.001 -W 1" -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007"
+Relation:     movie_success-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CorrelationAttributeEval-Sweka.attributeSelection.Ranker -T -1.7976931348623157E308 -N 30
+Instances:    611
+Attributes:   31
+              budget
+              bow_flying
+              tfidf_flying
+              bow_land
+              tfidf_revealing
+              bow_fly
+              bow_revealing
+              tfidf_ship
+              bow_sky
+              bow_leap
+              bow_steve
+              bow_stone
+              bow_blast
+              tfidf_steve
+              bow_onto
+              bow_cloud
+              bow_deck
+              bow_center
+              tfidf_land
+              bow_rose
+              bow_ship
+              tfidf_blast
+              tfidf_fly
+              tfidf_entire
+              tfidf_sky
+              bow_ground
+              tfidf_deck
+              bow_tree
+              tfidf_tony
+              tfidf_jake
+              worldwide_gross
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMOreg
+
+weights (not support vectors):
+ +       0.3899 * (normalized) budget
+ +       0.0414 * (normalized) bow_flying
+ +       0.0389 * (normalized) tfidf_flying
+ -       0.0482 * (normalized) bow_land
+ -       0.014  * (normalized) tfidf_revealing
+ +       0.0076 * (normalized) bow_fly
+ +       0.023  * (normalized) bow_revealing
+ +       0.0966 * (normalized) tfidf_ship
+ +       0.035  * (normalized) bow_sky
+ -       0.0132 * (normalized) bow_leap
+ +       0.1984 * (normalized) bow_steve
+ -       0.0172 * (normalized) bow_stone
+ -       0.0391 * (normalized) bow_blast
+ -       0.0513 * (normalized) tfidf_steve
+ +       0.0215 * (normalized) bow_onto
+ +       0.011  * (normalized) bow_cloud
+ +       0.0517 * (normalized) bow_deck
+ -       0.0098 * (normalized) bow_center
+ +       0.0366 * (normalized) tfidf_land
+ +       0.0608 * (normalized) bow_rose
+ -       0.0358 * (normalized) bow_ship
+ +       0.0402 * (normalized) tfidf_blast
+ -       0.0065 * (normalized) tfidf_fly
+ +       0.0058 * (normalized) tfidf_entire
+ -       0.0516 * (normalized) tfidf_sky
+ -       0.0148 * (normalized) bow_ground
+ -       0.097  * (normalized) tfidf_deck
+ +       0.03   * (normalized) bow_tree
+ -       0.0142 * (normalized) tfidf_tony
+ +       0.0051 * (normalized) tfidf_jake
+ -       0.0009
+
+
+
+Number of kernel evaluations: 186966 (96.239% cached)
+
+Time taken to build model: 0.21 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.6968
+Mean absolute error                99286125.6727
+Root mean squared error            197706203.7494
+Relative absolute error                 63.795  %
+Root relative squared error             74.5081 %
+Total Number of Instances              611     
+

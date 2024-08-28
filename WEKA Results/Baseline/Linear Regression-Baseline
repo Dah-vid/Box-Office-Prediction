@@ -1,0 +1,82 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8 -num-decimal-places 4
+Relation:     movie_success-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CorrelationAttributeEval-Sweka.attributeSelection.Ranker -T -1.7976931348623157E308 -N 30
+Instances:    611
+Attributes:   31
+              budget
+              bow_flying
+              tfidf_flying
+              bow_land
+              tfidf_revealing
+              bow_fly
+              bow_revealing
+              tfidf_ship
+              bow_sky
+              bow_leap
+              bow_steve
+              bow_stone
+              bow_blast
+              tfidf_steve
+              bow_onto
+              bow_cloud
+              bow_deck
+              bow_center
+              tfidf_land
+              bow_rose
+              bow_ship
+              tfidf_blast
+              tfidf_fly
+              tfidf_entire
+              tfidf_sky
+              bow_ground
+              tfidf_deck
+              bow_tree
+              tfidf_tony
+              tfidf_jake
+              worldwide_gross
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+worldwide_gross =
+
+      3.8015 * budget +
+7128780.9306 * bow_flying +
+-9354320.1516 * bow_land +
+2500034849.211 * tfidf_revealing +
+1789064.4459 * bow_fly +
+1604014.8411 * bow_sky +
+3403610.9914 * bow_leap +
+1267538.4182 * bow_steve +
+1543334.8488 * bow_stone +
+-8330700.0967 * bow_blast +
+-238340959.4739 * tfidf_steve +
+1256172.6605 * bow_onto +
+2485151.51   * bow_deck +
+3651710329.0031 * tfidf_land +
+ 848544.3088 * bow_rose +
+2184652177.3236 * tfidf_blast +
+-1835019606.1934 * tfidf_fly +
+-3025633585.1623 * tfidf_sky +
+-1484177499.878 * tfidf_deck +
+1727581.4497 * bow_tree +
+229726246.1327 * tfidf_tony +
+448190326.4958 * tfidf_jake +
+-41919365.7744
+
+Time taken to build model: 0.02 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.6185
+Mean absolute error                120723734.8005
+Root mean squared error            210702906.3657
+Relative absolute error                 77.5694 %
+Root relative squared error             79.4061 %
+Total Number of Instances              611     
+

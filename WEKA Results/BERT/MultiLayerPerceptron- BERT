@@ -1,0 +1,571 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     movie_success-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CorrelationAttributeEval-Sweka.attributeSelection.Ranker -T -1.7976931348623157E308 -N 30
+Instances:    611
+Attributes:   31
+              budget
+              bow_flying
+              tfidf_flying
+              ngram_the_sky
+              bow_land
+              tfidf_revealing
+              bow_fly
+              bow_revealing
+              tfidf_ship
+              bow_sky
+              bow_leap
+              bow_steve
+              bow_stone
+              bow_blast
+              tfidf_steve
+              ngram_the_air
+              bow_onto
+              bow_cloud
+              bow_deck
+              bow_center
+              ngram_the_ground
+              tfidf_land
+              bow_rose
+              ngram_the_ship
+              bow_ship
+              bert_173
+              tfidf_blast
+              tfidf_fly
+              tfidf_entire
+              tfidf_sky
+              worldwide_gross
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Linear Node 0
+    Inputs    Weights
+    Threshold    -1.0214575555171097
+    Node 1    0.5737170407703517
+    Node 2    -0.29719184981738594
+    Node 3    1.2516352125274302
+    Node 4    0.30958079120186743
+    Node 5    0.7623662026078518
+    Node 6    0.3209002023257085
+    Node 7    0.5333101686844751
+    Node 8    0.09293756802505745
+    Node 9    0.7511279531087096
+    Node 10    -0.6779598701876028
+    Node 11    -1.063074535872108
+    Node 12    0.30878890878392073
+    Node 13    2.1479279746633138
+    Node 14    0.4135068832922617
+    Node 15    0.271131332957637
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.28804440127285547
+    Attrib budget    0.4135214692428909
+    Attrib bow_flying    0.10516137795930965
+    Attrib tfidf_flying    0.23334197600825732
+    Attrib ngram_the_sky    0.3586653617441249
+    Attrib bow_land    -0.07435466710950464
+    Attrib tfidf_revealing    0.2891850691647915
+    Attrib bow_fly    0.3622103681965335
+    Attrib bow_revealing    0.16656928085993833
+    Attrib tfidf_ship    0.15909753208788172
+    Attrib bow_sky    0.1794710028194465
+    Attrib bow_leap    -0.3480010084109147
+    Attrib bow_steve    0.1913638904141793
+    Attrib bow_stone    0.009680126121727103
+    Attrib bow_blast    -0.04368253539517957
+    Attrib tfidf_steve    0.1442563479838816
+    Attrib ngram_the_air    0.9047081222125382
+    Attrib bow_onto    0.2442657046591692
+    Attrib bow_cloud    0.145037888199962
+    Attrib bow_deck    0.6082215736208267
+    Attrib bow_center    -0.3623653328058744
+    Attrib ngram_the_ground    -0.368236606859938
+    Attrib tfidf_land    0.06061440321798386
+    Attrib bow_rose    0.20642889293005243
+    Attrib ngram_the_ship    -0.17009708949570224
+    Attrib bow_ship    0.18135482396670158
+    Attrib bert_173    -0.07191516158669349
+    Attrib tfidf_blast    0.061349301858977294
+    Attrib tfidf_fly    0.33749925053918334
+    Attrib tfidf_entire    -0.021253621305996222
+    Attrib tfidf_sky    0.037625422266252186
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.2379905841410228
+    Attrib budget    0.2877247931969486
+    Attrib bow_flying    0.1424961562450349
+    Attrib tfidf_flying    0.1479566025963831
+    Attrib ngram_the_sky    0.12319311683291422
+    Attrib bow_land    0.0843385802868519
+    Attrib tfidf_revealing    0.182892480132452
+    Attrib bow_fly    0.17690094292047795
+    Attrib bow_revealing    0.17378591844495547
+    Attrib tfidf_ship    0.17079108286247666
+    Attrib bow_sky    0.13270746591947835
+    Attrib bow_leap    0.1303473770785995
+    Attrib bow_steve    0.24187625055286774
+    Attrib bow_stone    0.20515180989029533
+    Attrib bow_blast    0.10712324506498869
+    Attrib tfidf_steve    0.2817296219867296
+    Attrib ngram_the_air    0.07491377423047256
+    Attrib bow_onto    0.14704325122064277
+    Attrib bow_cloud    0.19986092349650095
+    Attrib bow_deck    0.2382236646076213
+    Attrib bow_center    0.16007882064310133
+    Attrib ngram_the_ground    0.18645660662701996
+    Attrib tfidf_land    0.14349230907384947
+    Attrib bow_rose    0.272159455824083
+    Attrib ngram_the_ship    0.23547464544323016
+    Attrib bow_ship    0.21816941134995857
+    Attrib bert_173    -0.01791469270289396
+    Attrib tfidf_blast    0.14682920520417472
+    Attrib tfidf_fly    0.12290983396514342
+    Attrib tfidf_entire    0.06999171792926161
+    Attrib tfidf_sky    0.09728173673986737
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -2.3987604987697093
+    Attrib budget    3.0532749018688956
+    Attrib bow_flying    -0.2616060485916468
+    Attrib tfidf_flying    -0.5481300840008264
+    Attrib ngram_the_sky    -0.02852506716930907
+    Attrib bow_land    -0.5924875612222902
+    Attrib tfidf_revealing    -1.1458534731161325
+    Attrib bow_fly    -0.12040542591628946
+    Attrib bow_revealing    -0.7352115942812643
+    Attrib tfidf_ship    -0.4828112358658326
+    Attrib bow_sky    0.8697939417934741
+    Attrib bow_leap    -0.7643673659281413
+    Attrib bow_steve    0.20080851736317254
+    Attrib bow_stone    0.6279080716339595
+    Attrib bow_blast    -1.143264534230833
+    Attrib tfidf_steve    0.49388698499658595
+    Attrib ngram_the_air    -1.0876538112068919
+    Attrib bow_onto    1.5636283464850604
+    Attrib bow_cloud    0.5031872883256941
+    Attrib bow_deck    -0.5593031485387556
+    Attrib bow_center    -0.5880984471550695
+    Attrib ngram_the_ground    2.026024375605592
+    Attrib tfidf_land    -0.14192460285543618
+    Attrib bow_rose    1.6345292780085507
+    Attrib ngram_the_ship    -0.7131964586636359
+    Attrib bow_ship    -0.034802478834450555
+    Attrib bert_173    1.7307484868801468
+    Attrib tfidf_blast    -0.36108066229882657
+    Attrib tfidf_fly    -0.890784422835775
+    Attrib tfidf_entire    2.071911056500865
+    Attrib tfidf_sky    -0.3029741375748425
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.33038996158204614
+    Attrib budget    0.40298586712065104
+    Attrib bow_flying    0.09967015136584095
+    Attrib tfidf_flying    0.20484453136358072
+    Attrib ngram_the_sky    0.3129455724610707
+    Attrib bow_land    -0.08316135126713743
+    Attrib tfidf_revealing    0.329024336718476
+    Attrib bow_fly    0.15294954863613272
+    Attrib bow_revealing    0.11139909862628143
+    Attrib tfidf_ship    0.21032848942243976
+    Attrib bow_sky    0.16739735167336503
+    Attrib bow_leap    -0.07614950107134273
+    Attrib bow_steve    0.2390630196828786
+    Attrib bow_stone    0.14894776929092018
+    Attrib bow_blast    -0.02948231928999208
+    Attrib tfidf_steve    0.17314784737663458
+    Attrib ngram_the_air    0.5921717586524016
+    Attrib bow_onto    0.253665906312142
+    Attrib bow_cloud    0.15790787961397126
+    Attrib bow_deck    0.3275609035616767
+    Attrib bow_center    -0.0801448706810995
+    Attrib ngram_the_ground    -0.11398614458492669
+    Attrib tfidf_land    0.05923991789464004
+    Attrib bow_rose    0.205623927938343
+    Attrib ngram_the_ship    -0.12322885093310502
+    Attrib bow_ship    0.133712586075795
+    Attrib bert_173    -0.23779099310689578
+    Attrib tfidf_blast    0.2047919085533645
+    Attrib tfidf_fly    0.18403722725570232
+    Attrib tfidf_entire    0.039590212226812894
+    Attrib tfidf_sky    0.10689182521019837
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -1.1270081878836653
+    Attrib budget    1.4876959475545604
+    Attrib bow_flying    -0.5873261766594895
+    Attrib tfidf_flying    0.001593715437431073
+    Attrib ngram_the_sky    0.5900691721276557
+    Attrib bow_land    0.061817611491431675
+    Attrib tfidf_revealing    0.37583750314802505
+    Attrib bow_fly    -0.10938952397676743
+    Attrib bow_revealing    0.22154410297490668
+    Attrib tfidf_ship    0.2284463052232668
+    Attrib bow_sky    0.6217475262959777
+    Attrib bow_leap    0.8839109407399689
+    Attrib bow_steve    0.20437904303258211
+    Attrib bow_stone    -0.2590394305199108
+    Attrib bow_blast    -0.9993258590032675
+    Attrib tfidf_steve    0.06515093540455812
+    Attrib ngram_the_air    -0.762721723936016
+    Attrib bow_onto    -0.8817209575331009
+    Attrib bow_cloud    -0.02461265074341709
+    Attrib bow_deck    -0.46631680552142357
+    Attrib bow_center    -0.8893536112958937
+    Attrib ngram_the_ground    0.8195704141127724
+    Attrib tfidf_land    0.6984646767667703
+    Attrib bow_rose    0.8559472332204191
+    Attrib ngram_the_ship    -0.5732582174731956
+    Attrib bow_ship    0.30471761604016606
+    Attrib bert_173    -0.3038528331212641
+    Attrib tfidf_blast    -0.16094174925833873
+    Attrib tfidf_fly    0.4849867759099784
+    Attrib tfidf_entire    0.6751040007957131
+    Attrib tfidf_sky    0.3334875314800576
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -1.1780353382577922
+    Attrib budget    1.6493544341208428
+    Attrib bow_flying    -0.08866838520954584
+    Attrib tfidf_flying    0.19410636824279276
+    Attrib ngram_the_sky    0.4290374217847215
+    Attrib bow_land    -0.068475711727926
+    Attrib tfidf_revealing    0.2308528456644116
+    Attrib bow_fly    -0.10268592525264056
+    Attrib bow_revealing    0.0172237598610059
+    Attrib tfidf_ship    -0.08279792375432492
+    Attrib bow_sky    0.38838753816414745
+    Attrib bow_leap    0.8511784517763277
+    Attrib bow_steve    0.1680913032788275
+    Attrib bow_stone    -0.2790165324681724
+    Attrib bow_blast    -0.8440961651560153
+    Attrib tfidf_steve    0.06178491446949244
+    Attrib ngram_the_air    -0.8437313609401936
+    Attrib bow_onto    -0.8451245079454107
+    Attrib bow_cloud    -0.06044926113999225
+    Attrib bow_deck    -0.19868591418283538
+    Attrib bow_center    -0.38664483947973183
+    Attrib ngram_the_ground    0.4950626342498273
+    Attrib tfidf_land    0.5422373316837642
+    Attrib bow_rose    1.0999434993176638
+    Attrib ngram_the_ship    -0.4664533523104482
+    Attrib bow_ship    0.11615709442890612
+    Attrib bert_173    0.7203211751464387
+    Attrib tfidf_blast    -0.37535183880290407
+    Attrib tfidf_fly    0.17514267310203321
+    Attrib tfidf_entire    0.7008829188625355
+    Attrib tfidf_sky    -0.3237403060949814
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -1.0556892534858446
+    Attrib budget    1.5427664091762618
+    Attrib bow_flying    -0.7226641356821609
+    Attrib tfidf_flying    -0.26745957682999205
+    Attrib ngram_the_sky    0.3932637334476976
+    Attrib bow_land    0.13731627390178494
+    Attrib tfidf_revealing    -0.007718255171221992
+    Attrib bow_fly    0.2702652904970127
+    Attrib bow_revealing    0.22570309758722534
+    Attrib tfidf_ship    -0.1458008213908662
+    Attrib bow_sky    0.34281177588559897
+    Attrib bow_leap    -0.23676596504292666
+    Attrib bow_steve    0.24457837235663188
+    Attrib bow_stone    0.3760221604435009
+    Attrib bow_blast    -1.1768737860300695
+    Attrib tfidf_steve    0.3157339748037217
+    Attrib ngram_the_air    -0.17022523523591956
+    Attrib bow_onto    1.3563587475442487
+    Attrib bow_cloud    -0.682366204958132
+    Attrib bow_deck    0.1481908247477842
+    Attrib bow_center    0.44784622358687176
+    Attrib ngram_the_ground    1.1271108580473073
+    Attrib tfidf_land    0.2103433624322092
+    Attrib bow_rose    0.6823100154893111
+    Attrib ngram_the_ship    -0.28690888092547184
+    Attrib bow_ship    -0.025017101984994322
+    Attrib bert_173    -0.5648261388531252
+    Attrib tfidf_blast    -0.3864667850265011
+    Attrib tfidf_fly    -0.4911732319469814
+    Attrib tfidf_entire    0.15238544463295617
+    Attrib tfidf_sky    -0.2882941222175965
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.3064236036969792
+    Attrib budget    0.38634188037772493
+    Attrib bow_flying    0.08811272335898275
+    Attrib tfidf_flying    0.12066282687605956
+    Attrib ngram_the_sky    0.24513973093856575
+    Attrib bow_land    -0.035806854911101305
+    Attrib tfidf_revealing    0.16812935338250504
+    Attrib bow_fly    0.22634074726201375
+    Attrib bow_revealing    0.05839659762942257
+    Attrib tfidf_ship    0.17656114040593385
+    Attrib bow_sky    0.18741274029499944
+    Attrib bow_leap    -0.03148254708648273
+    Attrib bow_steve    0.27398442741001156
+    Attrib bow_stone    0.21553878079881159
+    Attrib bow_blast    0.1281006648021765
+    Attrib tfidf_steve    0.22092503318158796
+    Attrib ngram_the_air    0.3849509420300221
+    Attrib bow_onto    0.1944316041475648
+    Attrib bow_cloud    0.20308714804320746
+    Attrib bow_deck    0.3278137171916183
+    Attrib bow_center    0.055961613402142896
+    Attrib ngram_the_ground    0.028412976587627096
+    Attrib tfidf_land    0.15329970372600707
+    Attrib bow_rose    0.23427510214095984
+    Attrib ngram_the_ship    0.09259911038455503
+    Attrib bow_ship    0.22830786942234207
+    Attrib bert_173    -0.1579033262846992
+    Attrib tfidf_blast    0.1419127780645485
+    Attrib tfidf_fly    0.1617860233392685
+    Attrib tfidf_entire    -0.013183361342625294
+    Attrib tfidf_sky    0.10538533842876341
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -0.3302398122395808
+    Attrib budget    0.30403270447590786
+    Attrib bow_flying    0.28262244262269764
+    Attrib tfidf_flying    1.0452154119288208
+    Attrib ngram_the_sky    0.5668123794629315
+    Attrib bow_land    0.08939840548714474
+    Attrib tfidf_revealing    0.7450119127349124
+    Attrib bow_fly    -0.15963325375468831
+    Attrib bow_revealing    0.6674028244449116
+    Attrib tfidf_ship    0.30768107512464155
+    Attrib bow_sky    0.12793596022044498
+    Attrib bow_leap    0.01270753342264894
+    Attrib bow_steve    0.2094168243863881
+    Attrib bow_stone    -0.04935341865582033
+    Attrib bow_blast    -0.5038707735615252
+    Attrib tfidf_steve    0.1053918032760288
+    Attrib ngram_the_air    1.086938441298667
+    Attrib bow_onto    0.42817778657105265
+    Attrib bow_cloud    -0.3688139377666181
+    Attrib bow_deck    0.3091025879639587
+    Attrib bow_center    -0.32901236619591556
+    Attrib ngram_the_ground    -0.5933798987383327
+    Attrib tfidf_land    -0.1019242869461492
+    Attrib bow_rose    0.1465620265168371
+    Attrib ngram_the_ship    -0.40647850481886916
+    Attrib bow_ship    0.1251121248520407
+    Attrib bert_173    -0.8288998130399816
+    Attrib tfidf_blast    0.0928989797486587
+    Attrib tfidf_fly    -0.10125284929657961
+    Attrib tfidf_entire    0.19443766773091348
+    Attrib tfidf_sky    -0.026431056381990427
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.09674810028901401
+    Attrib budget    0.26341989883864547
+    Attrib bow_flying    0.35345571832956063
+    Attrib tfidf_flying    0.12806994129431465
+    Attrib ngram_the_sky    0.018422542259218765
+    Attrib bow_land    0.3011346674624938
+    Attrib tfidf_revealing    0.1106061903789601
+    Attrib bow_fly    0.24896317449954866
+    Attrib bow_revealing    0.4096484515631974
+    Attrib tfidf_ship    0.17230213232581168
+    Attrib bow_sky    0.10666438326665952
+    Attrib bow_leap    0.048705575068460114
+    Attrib bow_steve    0.10525062606630978
+    Attrib bow_stone    0.16928969212952782
+    Attrib bow_blast    0.16821140582009453
+    Attrib tfidf_steve    0.11674472398931636
+    Attrib ngram_the_air    -0.1347036930257107
+    Attrib bow_onto    0.18016773418621299
+    Attrib bow_cloud    0.17568500181695956
+    Attrib bow_deck    0.1112185909336238
+    Attrib bow_center    0.25949644674593514
+    Attrib ngram_the_ground    0.3463846797633441
+    Attrib tfidf_land    0.18764060589414736
+    Attrib bow_rose    0.15501219677574227
+    Attrib ngram_the_ship    0.17971461528585356
+    Attrib bow_ship    0.12999179669090685
+    Attrib bert_173    0.1493046606855283
+    Attrib tfidf_blast    0.08284696703568827
+    Attrib tfidf_fly    0.05121927008886561
+    Attrib tfidf_entire    0.20310281145883172
+    Attrib tfidf_sky    0.04801846203862965
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -0.002271390334370382
+    Attrib budget    -3.221206780751291
+    Attrib bow_flying    -1.1498453116346123
+    Attrib tfidf_flying    -0.33579142102614623
+    Attrib ngram_the_sky    0.779586951043512
+    Attrib bow_land    0.19766908298258082
+    Attrib tfidf_revealing    0.9740355471602348
+    Attrib bow_fly    -0.08940265141743534
+    Attrib bow_revealing    -0.7877454879928955
+    Attrib tfidf_ship    -1.2525116929925888
+    Attrib bow_sky    0.2747664883862139
+    Attrib bow_leap    0.777930289924467
+    Attrib bow_steve    0.37167214490350187
+    Attrib bow_stone    -0.2631696982514015
+    Attrib bow_blast    -0.6579934156114392
+    Attrib tfidf_steve    0.1860435532467745
+    Attrib ngram_the_air    0.8708261720392763
+    Attrib bow_onto    0.3148731321556862
+    Attrib bow_cloud    0.45722362287607293
+    Attrib bow_deck    0.07578176955953811
+    Attrib bow_center    0.3102845266980761
+    Attrib ngram_the_ground    0.4087399393303673
+    Attrib tfidf_land    0.2200518792363517
+    Attrib bow_rose    1.1143119313446754
+    Attrib ngram_the_ship    1.5394596718905522
+    Attrib bow_ship    0.5230610975504579
+    Attrib bert_173    -0.3136036689407846
+    Attrib tfidf_blast    0.5007260728671119
+    Attrib tfidf_fly    0.32841360773284123
+    Attrib tfidf_entire    0.6005155871230732
+    Attrib tfidf_sky    0.51748264484319
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -0.5318749191040663
+    Attrib budget    0.7276147400616326
+    Attrib bow_flying    -0.11615168378873088
+    Attrib tfidf_flying    0.3670679292392242
+    Attrib ngram_the_sky    0.381403347260026
+    Attrib bow_land    0.11699781556657364
+    Attrib tfidf_revealing    0.44823252873998176
+    Attrib bow_fly    0.14125866210964919
+    Attrib bow_revealing    0.42468243730035216
+    Attrib tfidf_ship    0.0761589683699149
+    Attrib bow_sky    0.258240391468906
+    Attrib bow_leap    -0.18827619290906278
+    Attrib bow_steve    0.22970265961122455
+    Attrib bow_stone    0.1182090391259069
+    Attrib bow_blast    -0.6709742453145843
+    Attrib tfidf_steve    0.18668546904712816
+    Attrib ngram_the_air    0.5176754124252563
+    Attrib bow_onto    0.6623842824157667
+    Attrib bow_cloud    -0.3738540446628359
+    Attrib bow_deck    0.32437101602335544
+    Attrib bow_center    -0.21775186102772418
+    Attrib ngram_the_ground    0.050757531018075744
+    Attrib tfidf_land    0.1639751656393722
+    Attrib bow_rose    0.39173112651235104
+    Attrib ngram_the_ship    -0.22329953149184115
+    Attrib bow_ship    0.11203187950650643
+    Attrib bert_173    -0.4941630464201023
+    Attrib tfidf_blast    -0.0602654681527345
+    Attrib tfidf_fly    -0.027782897160332526
+    Attrib tfidf_entire    0.06777717730073199
+    Attrib tfidf_sky    -0.14405113693656527
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -0.7560727749246552
+    Attrib budget    2.2194702582293875
+    Attrib bow_flying    0.9675926421285924
+    Attrib tfidf_flying    -0.027364404984875836
+    Attrib ngram_the_sky    0.4619580267833733
+    Attrib bow_land    -0.7893140568083369
+    Attrib tfidf_revealing    -0.8699797503911936
+    Attrib bow_fly    -0.7170536540529933
+    Attrib bow_revealing    -0.4445383827081442
+    Attrib tfidf_ship    0.7903783207646348
+    Attrib bow_sky    0.2266243805807878
+    Attrib bow_leap    1.8944030926890134
+    Attrib bow_steve    0.3784808812078788
+    Attrib bow_stone    0.28887325760298244
+    Attrib bow_blast    0.0674716539062496
+    Attrib tfidf_steve    -0.10673621658893695
+    Attrib ngram_the_air    -0.7257765796693163
+    Attrib bow_onto    -0.8155852513879848
+    Attrib bow_cloud    0.4334766208365217
+    Attrib bow_deck    0.22133331931729058
+    Attrib bow_center    2.1911807842812157
+    Attrib ngram_the_ground    0.8750480598038539
+    Attrib tfidf_land    -0.06315587869374362
+    Attrib bow_rose    0.5822928422248098
+    Attrib ngram_the_ship    0.48825853691668214
+    Attrib bow_ship    1.161237662326221
+    Attrib bert_173    -0.5454789474507379
+    Attrib tfidf_blast    -0.20204145202559778
+    Attrib tfidf_fly    -1.7168312590367931
+    Attrib tfidf_entire    -0.1328926993837785
+    Attrib tfidf_sky    -1.0717410518348982
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    -0.3503452991522424
+    Attrib budget    0.5373432678053085
+    Attrib bow_flying    0.1570966572311431
+    Attrib tfidf_flying    0.2845476347615181
+    Attrib ngram_the_sky    0.3808157241542327
+    Attrib bow_land    -0.12184972918818567
+    Attrib tfidf_revealing    0.2951655673866566
+    Attrib bow_fly    0.28156138607143855
+    Attrib bow_revealing    0.06611278958431496
+    Attrib tfidf_ship    0.09949711381801649
+    Attrib bow_sky    0.13647936066438945
+    Attrib bow_leap    -0.2744358480162696
+    Attrib bow_steve    0.18376571288466761
+    Attrib bow_stone    0.0035010275584297246
+    Attrib bow_blast    -0.0784425393462541
+    Attrib tfidf_steve    0.14011872661605473
+    Attrib ngram_the_air    0.673791462904652
+    Attrib bow_onto    0.19756928375146873
+    Attrib bow_cloud    0.1464580695919928
+    Attrib bow_deck    0.6282205415141067
+    Attrib bow_center    -0.2714187548778917
+    Attrib ngram_the_ground    -0.1921007843973577
+    Attrib tfidf_land    0.0929356456381941
+    Attrib bow_rose    0.29222292518637427
+    Attrib ngram_the_ship    -0.09360036863884379
+    Attrib bow_ship    0.12428473116501697
+    Attrib bert_173    -0.012727146558242454
+    Attrib tfidf_blast    0.09716514534688829
+    Attrib tfidf_fly    0.3047014440319038
+    Attrib tfidf_entire    -0.02925855655348283
+    Attrib tfidf_sky    -0.0425836046690689
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    -0.4599317035607855
+    Attrib budget    0.6774407417792958
+    Attrib bow_flying    0.018638184084062245
+    Attrib tfidf_flying    0.3631066242989941
+    Attrib ngram_the_sky    0.3143849270418166
+    Attrib bow_land    0.05489021572068164
+    Attrib tfidf_revealing    0.5228786301671334
+    Attrib bow_fly    0.059799018536059206
+    Attrib bow_revealing    0.27622434430344034
+    Attrib tfidf_ship    0.22940391218922124
+    Attrib bow_sky    0.20572633604012922
+    Attrib bow_leap    -0.01832077143948918
+    Attrib bow_steve    0.21006316470362205
+    Attrib bow_stone    0.007639565673021306
+    Attrib bow_blast    -0.3743042767596204
+    Attrib tfidf_steve    0.14610723364293912
+    Attrib ngram_the_air    0.4924185876884191
+    Attrib bow_onto    0.274553236592123
+    Attrib bow_cloud    -0.05302663796194686
+    Attrib bow_deck    0.31101271999944463
+    Attrib bow_center    -0.3918976685390226
+    Attrib ngram_the_ground    -0.06149448813869951
+    Attrib tfidf_land    0.21650464938278308
+    Attrib bow_rose    0.3850125870393123
+    Attrib ngram_the_ship    -0.24824170451403846
+    Attrib bow_ship    0.20453885012852224
+    Attrib bert_173    -0.3779404552250247
+    Attrib tfidf_blast    -0.03387264539257354
+    Attrib tfidf_fly    0.08770586584496728
+    Attrib tfidf_entire    0.11214454503312662
+    Attrib tfidf_sky    0.020436037333420448
+Class 
+    Input
+    Node 0
+
+
+Time taken to build model: 1.17 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.4451
+Mean absolute error                138923143.8874
+Root mean squared error            300931250.2486
+Relative absolute error                 89.2632 %
+Root relative squared error            113.4098 %
+Total Number of Instances              611     
+

@@ -2,13 +2,13 @@ import requests
 from bs4 import BeautifulSoup
 import os
 
-# Step 1: Fetch and parse the HTML from the Sci-Fi genre page
-genre_url = "https://imsdb.com/genre/Sci-Fi"
+# Fetch and parse the HTML from the all genre page
+genre_url = "https://imsdb.com/all-scripts.html"
 response = requests.get(genre_url)
 response.raise_for_status()  # Check if the request was successful
 soup = BeautifulSoup(response.content, "html.parser")
 
-# Step 2: Extract intermediate URLs
+# Extract intermediate URLs
 # Assuming script links are within <p> tags with <a> tags inside them
 script_links = soup.select("p a[href^='/Movie Scripts/']")
 intermediate_urls = ["https://imsdb.com" + link['href'] for link in script_links]

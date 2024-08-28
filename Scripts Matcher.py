@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 import re
-##Code to match movie titles in box office csv that are in scripts folder
+#Code to match movie titles in box office csv that are in scripts folder
 # Define the paths
 csv_file_path = r"C:\Users\david\Documents\MSC Coursework\Dissertation\Code\movie_budgets_and_revenues.csv"
 scripts_folder_path = r"C:\Users\david\Documents\MSC Coursework\Dissertation\Code\all scripts"

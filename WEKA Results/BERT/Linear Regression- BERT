@@ -1,0 +1,76 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8 -num-decimal-places 4
+Relation:     movie_success-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.CorrelationAttributeEval-Sweka.attributeSelection.Ranker -T -1.7976931348623157E308 -N 30
+Instances:    611
+Attributes:   31
+              budget
+              bow_flying
+              tfidf_flying
+              ngram_the_sky
+              bow_land
+              tfidf_revealing
+              bow_fly
+              bow_revealing
+              tfidf_ship
+              bow_sky
+              bow_leap
+              bow_steve
+              bow_stone
+              bow_blast
+              tfidf_steve
+              ngram_the_air
+              bow_onto
+              bow_cloud
+              bow_deck
+              bow_center
+              ngram_the_ground
+              tfidf_land
+              bow_rose
+              ngram_the_ship
+              bow_ship
+              bert_173
+              tfidf_blast
+              tfidf_fly
+              tfidf_entire
+              tfidf_sky
+              worldwide_gross
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+
+Linear Regression Model
+
+worldwide_gross =
+
+      3.8944 * budget +
+7758896.8277 * bow_flying +
+6980533.3857 * ngram_the_sky +
+-7118928.9957 * bow_land +
+4463585.4586 * bow_leap +
+1358765.1363 * bow_steve +
+1722915.2472 * bow_stone +
+-6035253.268 * bow_blast +
+-288553458.7234 * tfidf_steve +
+-2109887.6241 * ngram_the_air +
+1621553.5008 * bow_onto +
+3343565726.0104 * tfidf_land +
+ 884815.6487 * bow_rose +
+2901951.5061 * ngram_the_ship +
+-1009925.0508 * bow_ship +
+-3621036313.2099 * tfidf_sky +
+-35898435.5337
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.6354
+Mean absolute error                119990023.9962
+Root mean squared error            206284248.3539
+Relative absolute error                 77.098  %
+Root relative squared error             77.7408 %
+Total Number of Instances              611     
+
